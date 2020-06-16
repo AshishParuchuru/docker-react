@@ -1,0 +1,8 @@
+language: genric
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t ashish28594/docker-react -f Dockerfile.dev
+
